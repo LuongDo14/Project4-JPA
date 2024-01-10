@@ -1,0 +1,140 @@
+/*body {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*#water {*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/530/113/desktop-wallpaper-3d-under-the-sea-under-the-sea.jpg");*/
+/*    background-size: cover;*/
+/*    opacity: 0.7;*/
+/*    pointer-events: none;*/
+/*}*/
+
+/*h1 {*/
+/*    position: relative;*/
+/*    z-index: 1;*/
+/*    text-align: center;*/
+/*    padding-top: 100px;*/
+/*    font-family: Arial, sans-serif;*/
+/*    color: #fff;*/
+/*}*/
+
+/*.login {*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, -50%);*/
+/*    text-align: center;*/
+/*    border-radius: 10px;*/
+/*    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);*/
+/*    overflow: hidden;*/
+/*    width: 320px;*/
+/*    margin: auto;*/
+/*    padding: 20px;*/
+/*}*/
+
+/*.login form {*/
+/*    margin-top: 20px;*/
+/*}*/
+
+/*.login h1{*/
+/*    color: #000;*/
+/*    margin-top: 0;*/
+/*    text-shadow: 2px px 4px rgba(0, 0, 0, 0.5);*/
+/*    transform: translateY(-50%);*/
+/*    transition: transform 0.3s ease-in;*/
+/*}*/
+
+/*.form-group {*/
+/*    position: relative;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*.form-group input {*/
+/*    border: none;*/
+/*    border-bottom: 1px solid #000;*/
+/*    padding: 5px;*/
+/*    width: 80%;*/
+/*    height: 35px;*/
+/*    background-color: transparent;*/
+/*    border-radius: 10px;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*.form-group i {*/
+/*    position: absolute;*/
+/*    top: 10px;*/
+/*    left: 10px;*/
+/*    color: black;*/
+/*    font-size: 1.3rem;*/
+/*}*/
+
+/*label {*/
+/*    font-size: 1rem;*/
+/*    display: block;*/
+/*    transform: translate(5px, -4rem);*/
+/*    text-align: left;*/
+/*    transition: all 0.3s ease-in;*/
+/*}*/
+
+/*input:placeholder-shown + label{*/
+/*    padding: 2px 5px;*/
+/*    top: -20px;*/
+/*    color: #000;*/
+/*    opacity: 0;*/
+/*    display: block;*/
+/*    transform: translate(5px, -2rem);*/
+/*}*/
+
+/*input::placeholder{*/
+/*    color: #000;*/
+/*    font-size: 1rem;*/
+/*}*/
+
+/*.login input[type="text"]:focus,*/
+/*.login input[type="password"]:focus {*/
+/*    outline: none;*/
+/*}*/
+
+/*.animated-button {*/
+/*    display: inline-block;*/
+/*    padding: 10px 20px;*/
+/*    font-size: 14px;*/
+/*    border-radius: 5px;*/
+/*    border: none;*/
+/*    background-color: #000;*/
+/*    color: #fff;*/
+/*    transition: background-color 0.3s ease-in-out;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.animated-button:hover {*/
+/*    background-color: #1E90FF;*/
+/*}*/
+
+/*.animated-button:active {*/
+/*    transform: scale(0.95);*/
+/*}*/
+
+/*.login button:hover {*/
+/*    color: #000;*/
+/*}*/
+body{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    flex-direction: row;
+}
+input{
+    text-decoration: none;
+    color: darkblue;
+}
+label{
+    list-style-type: none;
+    color: yellowgreen;
+}
